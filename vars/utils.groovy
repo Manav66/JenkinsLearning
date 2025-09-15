@@ -1,7 +1,8 @@
-def sayHello(String name){
-	echo "Hello, ${name}"
+def sayHello(int num){
+	echo "Hello, ${num}"
 }
 
 def deployApp(String env){
 	echo "Deploy app to ${env}"
+
 }
